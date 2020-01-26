@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         
         let fontJudul : UIFont = UIFont.boldSystemFont(ofSize: 21)
         let fontSubJudul : UIFont = UIFont.systemFont(ofSize: 13)
+        let fontButton : UIFont = UIFont.boldSystemFont(ofSize: 16)
         
         labelJudul.text = "Personalize Your Favorite Food at Mujigae"
         labelJudul.font = fontJudul
@@ -42,6 +43,7 @@ class ViewController: UIViewController {
         doneButton.backgroundColor = #colorLiteral(red: 0.9215686275, green: 0.631372549, blue: 0.631372549, alpha: 1)
         doneButton.setTitleColor(UIColor.white, for: .normal)
         doneButton.layer.cornerRadius = 10
+        doneButton.titleLabel?.font = fontButton
         
     }
     
@@ -127,7 +129,9 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         let menu = dataMenus[indexPath.row]
         cell.labelMenu.text = menu.title!
         cell.labelMenu.textColor = #colorLiteral(red: 0.8509803922, green: 0.8470588235, blue: 0.8470588235, alpha: 1)
-//        cell.imageViewEmoji.image = UIImage(named: emoji.imageName!)
+        
+        let fontMenu : UIFont = UIFont.systemFont(ofSize: 13)
+        cell.labelMenu.font = fontMenu
 
         return cell
     }
