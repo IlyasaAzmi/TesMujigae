@@ -13,6 +13,8 @@
 		EDAB314E23DD1E03004A0A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAB314C23DD1E03004A0A33 /* Main.storyboard */; };
 		EDAB315023DD1E05004A0A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAB314F23DD1E05004A0A33 /* Assets.xcassets */; };
 		EDAB315323DD1E05004A0A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAB315123DD1E05004A0A33 /* LaunchScreen.storyboard */; };
+		EDAB315B23DD234D004A0A33 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAB315A23DD234D004A0A33 /* MenuCollectionViewCell.swift */; };
+		EDAB315D23DD24F0004A0A33 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAB315C23DD24F0004A0A33 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EDAB314F23DD1E05004A0A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDAB315223DD1E05004A0A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDAB315423DD1E05004A0A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAB315A23DD234D004A0A33 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDAB315C23DD24F0004A0A33 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				EDAB314F23DD1E05004A0A33 /* Assets.xcassets */,
 				EDAB315123DD1E05004A0A33 /* LaunchScreen.storyboard */,
 				EDAB315423DD1E05004A0A33 /* Info.plist */,
+				EDAB315A23DD234D004A0A33 /* MenuCollectionViewCell.swift */,
+				EDAB315C23DD24F0004A0A33 /* Menu.swift */,
 			);
 			path = TesMujigae;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				EDAB314B23DD1E03004A0A33 /* ViewController.swift in Sources */,
 				EDAB314723DD1E03004A0A33 /* AppDelegate.swift in Sources */,
 				EDAB314923DD1E03004A0A33 /* SceneDelegate.swift in Sources */,
+				EDAB315B23DD234D004A0A33 /* MenuCollectionViewCell.swift in Sources */,
+				EDAB315D23DD24F0004A0A33 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
